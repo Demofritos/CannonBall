@@ -1,3 +1,20 @@
 [gd_scene format=3 uid="uid://4pqund3nukl7"]
 
-[node name="Node2D" type="Node2D" unique_id=863551158]
+[sub_resource type="GDScript" id="GDScript_y32ns"]
+script/source = "extends Sprite2D
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready() -> void:
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta: float) -> void:
+	pass
+"
+
+[node name="Node2D" type="Node2D" unique_id=47945813]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1608085546]
+script = SubResource("GDScript_y32ns")
