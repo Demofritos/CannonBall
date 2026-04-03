@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://ckavqb25bdaul"]
 
 [ext_resource type="Texture2D" uid="uid://4q335xxs2p" path="res://icon.svg" id="1_fj7yv"]
+[ext_resource type="Texture2D" uid="uid://2iyduajlwna8" path="res://asdfghjkl.png" id="2_aqk2v"]
 [ext_resource type="Script" uid="uid://dpgvna4rykwpu" path="res://player.gd" id="2_tlwt5"]
 
 [node name="World" type="Node2D" unique_id=1307264536]
@@ -13,8 +14,10 @@ script = ExtResource("2_tlwt5")
 [node name="Camera2D" type="Camera2D" parent="Player" unique_id=942260911]
 position = Vector2(11, 3)
 
-[node name="CharacterBody2D" type="Sprite2D" parent="Player" unique_id=1846033061]
-texture = ExtResource("1_fj7yv")
+[node name="CharacterBody2D" type="Sprite2D" parent="Player" unique_id=104646403]
+position = Vector2(16, 4.0000134)
+scale = Vector2(12.15625, 9.78125)
+texture = ExtResource("2_aqk2v")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Player" unique_id=1356604765]
 

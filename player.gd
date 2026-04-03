@@ -9,4 +9,5 @@ const START_POS = Vector2(100, 400)
 func _ready():
 	falling = false
 	flying = false
+	position = START_POS
 	
