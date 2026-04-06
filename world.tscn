@@ -1,26 +1,13 @@
 [gd_scene format=3 uid="uid://ckavqb25bdaul"]
 
 [ext_resource type="Texture2D" uid="uid://4q335xxs2p" path="res://icon.svg" id="1_fj7yv"]
-[ext_resource type="Texture2D" uid="uid://2iyduajlwna8" path="res://asdfghjkl.png" id="2_aqk2v"]
-[ext_resource type="Script" uid="uid://dpgvna4rykwpu" path="res://player.gd" id="2_tlwt5"]
+[ext_resource type="PackedScene" uid="uid://neafyrt5gjco" path="res://ball.tscn" id="2_fj7yv"]
 
 [node name="World" type="Node2D" unique_id=1307264536]
-position = Vector2(-5, 17)
-
-[node name="Player" type="CharacterBody2D" parent="." unique_id=177013293]
-position = Vector2(595, 320)
-script = ExtResource("2_tlwt5")
-
-[node name="Camera2D" type="Camera2D" parent="Player" unique_id=942260911]
-position = Vector2(11, 3)
-
-[node name="CharacterBody2D" type="Sprite2D" parent="Player" unique_id=104646403]
-position = Vector2(16, 4.0000134)
-scale = Vector2(12.15625, 9.78125)
-texture = ExtResource("2_aqk2v")
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Player" unique_id=1356604765]
+position = Vector2(-2, 4)
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=204199230]
-position = Vector2(569, 67)
+position = Vector2(123, -92)
 texture = ExtResource("1_fj7yv")
+
+[node name="Ball" parent="." unique_id=1255316206 instance=ExtResource("2_fj7yv")]

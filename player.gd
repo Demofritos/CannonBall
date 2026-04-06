@@ -10,4 +10,11 @@ func _ready():
 	falling = false
 	flying = false
 	position = START_POS
+	 
+	 
+	 
+	 
 	
+	
+	
+	 
