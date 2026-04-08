@@ -1,13 +1,12 @@
 [gd_scene format=3 uid="uid://ckavqb25bdaul"]
 
-[ext_resource type="Texture2D" uid="uid://4q335xxs2p" path="res://icon.svg" id="1_fj7yv"]
 [ext_resource type="PackedScene" uid="uid://neafyrt5gjco" path="res://ball.tscn" id="2_fj7yv"]
+[ext_resource type="PackedScene" uid="uid://cbb6u8lu02dql" path="res://static_body_2d.tscn" id="2_tlwt5"]
 
 [node name="World" type="Node2D" unique_id=1307264536]
-position = Vector2(-2, 4)
-
-[node name="Sprite2D" type="Sprite2D" parent="." unique_id=204199230]
-position = Vector2(123, -92)
-texture = ExtResource("1_fj7yv")
 
 [node name="Ball" parent="." unique_id=1255316206 instance=ExtResource("2_fj7yv")]
+position = Vector2(204, -35)
+
+[node name="StaticBody2D" parent="." unique_id=813673423 instance=ExtResource("2_tlwt5")]
+position = Vector2(201, 53)
