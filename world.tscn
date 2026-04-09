@@ -6,7 +6,37 @@
 [node name="World" type="Node2D" unique_id=1307264536]
 
 [node name="Ball" parent="." unique_id=1255316206 instance=ExtResource("2_fj7yv")]
-position = Vector2(204, -35)
+position = Vector2(452, -1)
 
 [node name="StaticBody2D" parent="." unique_id=813673423 instance=ExtResource("2_tlwt5")]
-position = Vector2(201, 53)
+position = Vector2(1299, -21)
+
+[node name="StaticBody2D2" parent="." unique_id=589717040 instance=ExtResource("2_tlwt5")]
+position = Vector2(1180, 68)
+
+[node name="StaticBody2D3" parent="." unique_id=1711800153 instance=ExtResource("2_tlwt5")]
+position = Vector2(1174, -89)
+
+[node name="StaticBody2D4" parent="." unique_id=1709484993 instance=ExtResource("2_tlwt5")]
+position = Vector2(1055, 87)
+
+[node name="StaticBody2D5" parent="." unique_id=1961588788 instance=ExtResource("2_tlwt5")]
+position = Vector2(1057, -117)
+
+[node name="StaticBody2D6" parent="." unique_id=1519064795 instance=ExtResource("2_tlwt5")]
+position = Vector2(944, 110)
+
+[node name="StaticBody2D7" parent="." unique_id=41942412 instance=ExtResource("2_tlwt5")]
+position = Vector2(926, -143)
+
+[node name="StaticBody2D8" parent="." unique_id=962878475 instance=ExtResource("2_tlwt5")]
+position = Vector2(835, 120)
+
+[node name="StaticBody2D9" parent="." unique_id=221576733 instance=ExtResource("2_tlwt5")]
+position = Vector2(798, -163)
+
+[node name="StaticBody2D10" parent="." unique_id=1331870712 instance=ExtResource("2_tlwt5")]
+position = Vector2(684, -198)
+
+[node name="StaticBody2D11" parent="." unique_id=1300568827 instance=ExtResource("2_tlwt5")]
+position = Vector2(733, 160)
