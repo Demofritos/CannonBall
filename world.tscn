@@ -2,6 +2,8 @@
 
 [ext_resource type="PackedScene" uid="uid://neafyrt5gjco" path="res://ball.tscn" id="2_fj7yv"]
 [ext_resource type="PackedScene" uid="uid://cbb6u8lu02dql" path="res://static_body_2d.tscn" id="2_tlwt5"]
+[ext_resource type="Texture2D" uid="uid://dyys8unn2xwe1" path="res://Screenshot_20260421_110424.png" id="3_aqk2v"]
+[ext_resource type="Texture2D" uid="uid://dfvwu3eglayob" path="res://Screenshot_20260421_110350.png" id="4_036b0"]
 
 [node name="World" type="Node2D" unique_id=1307264536]
 
@@ -9,34 +11,20 @@
 position = Vector2(452, -1)
 
 [node name="StaticBody2D" parent="." unique_id=813673423 instance=ExtResource("2_tlwt5")]
-position = Vector2(1299, -21)
+position = Vector2(927, -21)
 
 [node name="StaticBody2D2" parent="." unique_id=589717040 instance=ExtResource("2_tlwt5")]
-position = Vector2(1180, 68)
+position = Vector2(702, 72)
 
 [node name="StaticBody2D3" parent="." unique_id=1711800153 instance=ExtResource("2_tlwt5")]
-position = Vector2(1174, -89)
+position = Vector2(699, -101)
 
-[node name="StaticBody2D4" parent="." unique_id=1709484993 instance=ExtResource("2_tlwt5")]
-position = Vector2(1055, 87)
+[node name="Screenshot20260421110424" type="Sprite2D" parent="." unique_id=148952464]
+position = Vector2(701.5, 73)
+scale = Vector2(0.38507447, 0.408805)
+texture = ExtResource("3_aqk2v")
 
-[node name="StaticBody2D5" parent="." unique_id=1961588788 instance=ExtResource("2_tlwt5")]
-position = Vector2(1057, -117)
-
-[node name="StaticBody2D6" parent="." unique_id=1519064795 instance=ExtResource("2_tlwt5")]
-position = Vector2(944, 110)
-
-[node name="StaticBody2D7" parent="." unique_id=41942412 instance=ExtResource("2_tlwt5")]
-position = Vector2(926, -143)
-
-[node name="StaticBody2D8" parent="." unique_id=962878475 instance=ExtResource("2_tlwt5")]
-position = Vector2(835, 120)
-
-[node name="StaticBody2D9" parent="." unique_id=221576733 instance=ExtResource("2_tlwt5")]
-position = Vector2(798, -163)
-
-[node name="StaticBody2D10" parent="." unique_id=1331870712 instance=ExtResource("2_tlwt5")]
-position = Vector2(684, -198)
-
-[node name="StaticBody2D11" parent="." unique_id=1300568827 instance=ExtResource("2_tlwt5")]
-position = Vector2(733, 160)
+[node name="Screenshot20260421110350" type="Sprite2D" parent="." unique_id=949433507]
+position = Vector2(698.00006, -102.00003)
+scale = Vector2(0.42483655, 0.49425286)
+texture = ExtResource("4_036b0")

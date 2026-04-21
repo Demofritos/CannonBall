@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://dykhek3vtdxqt"]
+
+[ext_resource type="Texture2D" uid="uid://cog0iuerlgy0v" path="res://Screenshot_20260421_110101.png" id="1_d7vdn"]
+
+[node name="ground" type="Area2D" unique_id=185127128]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=59430163]
+position = Vector2(0.75, -1.75)
+scale = Vector2(1.0024077, 0.988746)
+texture = ExtResource("1_d7vdn")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1581236953]
