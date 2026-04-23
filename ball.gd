@@ -6,7 +6,7 @@ const JUMP_VELOCITY = -300
 const GRAVITY = 980
 
 
-func _physics_process(delta: float) -> void:
+func _physics_process(delta: float) -> void: 
 	velocity.x = 100
 	# Add the gravity.
 	if not is_on_floor():
@@ -16,4 +16,10 @@ func _physics_process(delta: float) -> void:
 	if Input.is_action_just_pressed("ui_accept"):
 		velocity.y = JUMP_VELOCITY
 
-	move_and_slide()
+	if move_and_slide():
+		var n = get_slide_collision_count()
+		for i in range(n):
+			var c = get_slide_collision(i)
+			if Spikey._is_spikey(c.get_collider()):
+				get_tree().change_scene_to_file("res://game_over.tscn")
+				break
