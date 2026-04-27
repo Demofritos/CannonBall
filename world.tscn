@@ -4,15 +4,16 @@
 [ext_resource type="PackedScene" uid="uid://cbb6u8lu02dql" path="res://static_body_2d.tscn" id="2_tlwt5"]
 
 [node name="World" type="Node2D" unique_id=1307264536]
+position = Vector2(3, 1)
 
 [node name="Ball" parent="." unique_id=1255316206 instance=ExtResource("2_fj7yv")]
 position = Vector2(452, -1)
 
 [node name="StaticBody2D" parent="." unique_id=813673423 instance=ExtResource("2_tlwt5")]
-position = Vector2(926, -21)
+position = Vector2(906, -40)
 
 [node name="StaticBody2D2" parent="." unique_id=589717040 instance=ExtResource("2_tlwt5")]
 position = Vector2(658, 74)
 
 [node name="StaticBody2D3" parent="." unique_id=1711800153 instance=ExtResource("2_tlwt5")]
-position = Vector2(699, -101)
+position = Vector2(667, -156)
