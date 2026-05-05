@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://neafyrt5gjco"]
 
 [ext_resource type="Script" uid="uid://ulk76r85flaw" path="res://ball.gd" id="1_41u45"]
+[ext_resource type="PackedScene" uid="uid://cbb6u8lu02dql" path="res://static_body_2d.tscn" id="2_hgol0"]
 [ext_resource type="Texture2D" uid="uid://2iyduajlwna8" path="res://asdfghjkl.png" id="2_ktgx5"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_hgol0"]
@@ -19,6 +20,7 @@ radius = 7.071068
 
 [node name="Ball" type="CharacterBody2D" unique_id=1255316206]
 script = ExtResource("1_41u45")
+spike = ExtResource("2_hgol0")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=2058262110]
 sprite_frames = SubResource("SpriteFrames_hgol0")
